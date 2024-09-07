@@ -28,15 +28,10 @@ export async function generateBenchmarks(samples: number) {
   const imtArity = 2
   let imt_ts: IMT 
 
-  // const IMTHash = (a: any, b: any) => poseidon2([a, b])
-
   let imt_wasm: any
   let index: number
   let imt_ts_proof: IMTMerkleProof
   let imt_wasm_proof: string[]
-  // Members to insert in when running the inserMany function
-  // let membersLeanIMT: bigint[]
-  // let membersLeanIMTWasm: string[]
 
   bench
   .add(

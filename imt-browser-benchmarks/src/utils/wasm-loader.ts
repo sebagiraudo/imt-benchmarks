@@ -4,5 +4,3 @@ export const loadWasm = async () => {
   await wasm.default()
   return wasm
 }
-
-//assets/wasm/pkg/leanimt_poseidon_rs.js
