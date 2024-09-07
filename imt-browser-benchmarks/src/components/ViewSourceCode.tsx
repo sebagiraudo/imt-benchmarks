@@ -1,4 +1,4 @@
-const GITHUB_LINK = "https://github.com/vplasencia/leanimt-rs"
+const GITHUB_LINK = "https://github.com/sebagiraudo/imt-benchmarks"
 
 export default function ViewSourceCode() {
   return (
