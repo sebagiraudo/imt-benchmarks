@@ -175,9 +175,7 @@ async function main() {
 
   const table = bench.table((task) => generateTable(task))
 
-  // Add column to show how many times the LeanIMT is faster than the IMT.
-  // Formula: IMT average execution time divided by LeanIMT average execution time.
-  // Using LeanIMT ops/sec divided by IMT ops/sec would work too.
+  // Add column to show how many times the IMTWasm is faster than the IMTTs.
   table.map((rowInfo, i) => {
     if (rowInfo && !(rowInfo["Function"] as string).includes("IMTWasm")) {
       rowInfo["Relative to IMTTs"] = ""
