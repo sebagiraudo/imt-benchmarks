@@ -1,6 +1,6 @@
 {
     "scripts": {
         "browser": "cd ./imt-poseidon-rs && wasm-pack build --target web && cp -r ./pkg ../imt-browser-benchmarks/src/assets/wasm/ && cd ../imt-browser-benchmarks && yarn install && npm run dev",
-        "node": "cd ./imt-poseidon-rs && wasm-pack build --target nodejs && cd ../imt-node-benchmarks && yarn ts-node src/main.ts"
+        "node": "cd ./imt-poseidon-rs && wasm-pack build --target nodejs && cd ../imt-node-benchmarks && npm i && sudo yarn install && yarn ts-node src/main.ts"
     }
 }
