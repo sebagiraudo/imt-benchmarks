@@ -15,9 +15,10 @@ export default function Header() {
           Run Browser Benchmarks
         </Link>
         <div className="text-indigo-500 text-xl">&bull;</div>
-        <Link to="/about" className="text-indigo-500 hover:underline">
+        {/* ToDo: add link to mirror blog */}
+        {/* <Link to="/about" className="text-indigo-500 hover:underline">
           About
-        </Link>
+        </Link> */}
         <div className="text-indigo-500 text-xl">&bull;</div>
         <ViewSourceCode />
       </div>
