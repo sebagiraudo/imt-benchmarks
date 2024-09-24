@@ -199,7 +199,9 @@ export async function generateBenchmarks(samples: number) {
     }
   })
 
-  // console.table(table)
+  // Store the data in assets so users can see my results without running the benchmarks.
+  // const jsonOutput = JSON.stringify(table, null, 2)
+  // console.log(jsonOutput)
 
   // console.log(bench.results)
 
