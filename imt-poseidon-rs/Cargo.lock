@@ -217,6 +217,7 @@ dependencies = [
  "ark-bn254",
  "ark-ff",
  "light-poseidon",
+ "num-bigint",
  "wasm-bindgen",
 ]
 
