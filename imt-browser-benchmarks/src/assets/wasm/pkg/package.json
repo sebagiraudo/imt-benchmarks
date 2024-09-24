@@ -1,0 +1,15 @@
+{
+  "name": "imt-poseidon-rs",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "imt_poseidon_rs_bg.wasm",
+    "imt_poseidon_rs.js",
+    "imt_poseidon_rs.d.ts"
+  ],
+  "main": "imt_poseidon_rs.js",
+  "types": "imt_poseidon_rs.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
