@@ -14,9 +14,9 @@ export default function Header() {
         <Link to="/browser" className="text-indigo-500 hover:underline">
           Run Browser Benchmarks
         </Link>
-        <div className="text-indigo-500 text-xl">&bull;</div>
         {/* ToDo: add link to mirror blog */}
-        {/* <Link to="/about" className="text-indigo-500 hover:underline">
+        {/* <div className="text-indigo-500 text-xl">&bull;</div>
+        <Link to="/about" className="text-indigo-500 hover:underline">
           About
         </Link> */}
         <div className="text-indigo-500 text-xl">&bull;</div>
