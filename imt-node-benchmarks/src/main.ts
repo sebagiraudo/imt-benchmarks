@@ -202,6 +202,10 @@ async function main() {
     }
   })
 
+  // Save the data as json file inside the React project so we can see the node results in the frontend
+  const jsonOutput = JSON.stringify(table, null, 2)
+  const fs = require("fs")
+  fs.writeFileSync("../imt-browser-benchmarks/src/assets/data/functions-node.json", jsonOutput)
   console.table(table)
 
   // console.log(bench.results)
