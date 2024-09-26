@@ -54,8 +54,8 @@ Again, all these steps can be run with one command using `npm run browser`.
 
 ## Future work
 
-* Compare the `InsertMany` function, which still needs to be implemented in Rust.
+- [ ] Compare the `InsertMany` function, which still needs to be implemented in Rust.
 
-* Improve the web app to display results so it's not necessary to run them locally.
+- [X] Improve the web app to display results so it's not necessary to run them locally.
 
-* Deploy the web app.
+- [X] Deploy the web app.
